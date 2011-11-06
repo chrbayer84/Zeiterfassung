@@ -1,0 +1,209 @@
+@CHARSET "UTF-8";
+/* @override http://localhost/cakephp/cakephp-github/csfnavbar/css/style.css */
+/**
+ * Adapted Reset CSS Reloaded
+ * ------------------------------------
+ */
+#navigation div,
+#navigation span, 
+#navigation a, 
+#navigation img,
+#navigation strong, 
+#navigation ol,
+#navigation ul, 
+#navigation li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit; 
+	font-size: 100%;
+	font-family: 'lucida grande', verdana, helvetica, arial, sans-serif;
+	vertical-align: baseline;
+	color: #000000;
+}
+/* remember to define focus styles! */
+#navigation :focus {
+	outline: 0;
+}
+#navigation ol, 
+#navigation ul {
+	list-style: none;
+}
+
+/**
+ * Cake Software Foundation Top nav
+ * ------------------------------------
+ */
+#navigation {
+	background: #204c58;
+	border-bottom: 2px solid #000;
+	position: relative;
+	z-index: 999;
+	-webkit-box-shadow: 0 3px 4px #222;
+	-moz-box-shadow: 0 3px 4px #222;
+	box-shadow: 0 3px 4px #222;
+}
+#navigation ul {
+	height: 29px;
+	margin: 0 auto;
+	width: 1024px;
+	display: block;
+}
+#navigation ul li {
+	list-style: none;
+	float: left;
+	height: 25px;
+	line-height: 23px;
+	position: relative;
+	width: 100px;
+	padding: 3px 0;
+	list-style-image: none;
+}
+#navigation ul li:hover,
+#navigation ul li.sfhover {
+	background: #2c6877;
+}
+#navigation ul li.navigation_text {
+	margin-left: 0;
+	padding-left: 10px;
+	width: 200px;
+}
+#navigation ul li.navigation_headline {
+	background: transparent url('../img/cake.icon.png') 0px 4px no-repeat;
+	margin-left: 0;
+	padding-left: 10px;
+	width: 170px;
+}
+#navigation ul li {
+	font-family: 'lucida grande', verdana, helvetica, arial, sans-serif;
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	height: 25px;
+}
+#navigation ul li a,
+#navigation ul li span {
+	font-family: 'lucida grande', verdana, helvetica, arial, sans-serif;
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	height: 25px;
+	cursor: hand;
+	cursor: pointer;
+}
+#navigation ul li a,
+#navigation ul li span {
+	padding: 0 8px;
+}
+#navigation ul li.navigation_text a {
+	padding: 0;
+}
+
+
+/** Second level 
+ * --------------
+ */
+#navigation ul ul {
+	display: none;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	border: 2px solid #000;
+	border-top: 0;
+	position: relative;
+	top: 1px;
+	left: -2px;
+	list-style: none;
+	background: #2c6877;
+	-webkit-box-shadow: 0 3px 4px #222;
+	-moz-box-shadow: 0 3px 4px #222;
+	box-shadow: 0 3px 4px #222;
+}
+#navigation ul li ul li {
+	display: block;
+	float: none;
+	width: 196px;
+	padding: 2px;
+	margin: 0;
+}
+/* display on hover */
+#navigation ul li:hover ul,
+#navigation ul li.sfhover ul {
+	display: block;
+	margin: 0;
+}
+#navigation ul li ul li.cake-version {
+	height: 45px;
+}
+#navigation ul li ul li:hover,
+#navigation ul li ul li.sfhover {
+	background: #2f6f80;
+}
+#navigation ul li ul li a {
+	margin: 0 0px;
+	color: #f1f1d4;
+	line-height: 28px;
+}
+#navigation ul li ul li a:hover {
+	color: #e6e49f;
+}
+
+
+/**
+ * Third level navigation
+ * ------------------------------------
+ */
+#navigation ul ul ul {
+	border: 0;
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#navigation .cake-version ul {
+	display: block;
+	padding-left: 14px;
+}
+#navigation .cake-version ul li {
+	display: inline;
+	float: left;
+	width: auto;
+	border-right: none;
+	background: none;
+}
+#navigation .cake-version ul li a {
+	padding: 0 3px;
+	background-color: transparent;
+	display: inline;
+}
+#navigation ul li ul li:hover ul li {
+	background-color: inherit;
+}
+#navigation .cake-version ul,
+#navigation .cake-version ul li,
+#navigation .cake-version ul li a {
+	line-height: 15px;
+	height: 15px;
+	color: #f1f1d4;
+}
+#navigation .cake-version ul li a {
+	color: #ff8929;
+}
+#navigation .cake-version ul li a:hover {
+	color: #e37a24;
+	text-decoration: underline;
+}
+/*
+#navigation ul li:hover ul li:hover ul li,
+#navigation ul li:hover ul li:hover ul li a {
+	color: #ff8929;
+}
+#navigation ul li:hover ul li:hover ul li:hover,
+#navigation ul li:hover ul li:hover ul li:hover a {
+	color: #ff8929;
+}*/

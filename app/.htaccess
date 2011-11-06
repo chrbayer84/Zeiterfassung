@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^$    zeiterfassung/webroot/    [L]
+    RewriteRule    (.*) zeiterfassung/webroot/$1    [L]
+</IfModule>
+
+<IfModule mod_security.c>
+   SecFilterEngine Off
+   SecFilterScanPOST Off
+</IfModule>

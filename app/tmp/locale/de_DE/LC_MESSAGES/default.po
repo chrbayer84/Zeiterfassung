@@ -1,0 +1,677 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-10-08 18:24+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /controllers/clients_controller.php:13;33
+msgid "Invalid client"
+msgstr "default.pot"
+
+#: /controllers/clients_controller.php:23;38
+msgid "The client has been saved"
+msgstr "Der Kunde wurde gespeichert."
+
+#: /controllers/clients_controller.php:26;41
+msgid "The client could not be saved. Please, try again."
+msgstr "Der Kunde konnte nicht gespeichert werden. Bitte nochmal versuchen."
+
+#: /controllers/clients_controller.php:51
+msgid "Invalid id for client"
+msgstr "Ung&uuml;ltige ID f&uuml;r den Kunden."
+
+#: /controllers/clients_controller.php:55
+msgid "Client deleted"
+msgstr "Kunde gel&ouml;scht."
+
+#: /controllers/clients_controller.php:58
+msgid "Client was not deleted"
+msgstr "Kunde wurde nicht gel&ouml;scht."
+
+#: /controllers/configurations_controller.php:13;33
+msgid "Invalid configuration"
+msgstr "Ung&uuml;ltige Konfiguration."
+
+#: /controllers/configurations_controller.php:23;38
+msgid "The configuration has been saved"
+msgstr "Die Konfiguration wurde gespeichert."
+
+#: /controllers/configurations_controller.php:26;41
+msgid "The configuration could not be saved. Please, try again."
+msgstr "Die Konfiguration konnte nicht gespeichert werden. Bitte nochmal versuchen."
+
+#: /controllers/configurations_controller.php:51
+msgid "Invalid id for configuration"
+msgstr "Ung&uuml;ltige ID f&uuml;r eine Konfiguration."
+
+#: /controllers/configurations_controller.php:55
+msgid "Configuration deleted"
+msgstr "Konfiguration gel&ouml;scht."
+
+#: /controllers/configurations_controller.php:58
+msgid "Configuration was not deleted."
+msgstr ""
+
+#: /controllers/groups_controller.php:13;33
+msgid "Invalid group"
+msgstr "Konfiguration wurde nicht gel&ouml;scht."
+
+#: /controllers/groups_controller.php:23;38
+msgid "The group has been saved"
+msgstr "Die Gruppe wurde gespeichert."
+
+#: /controllers/groups_controller.php:26;41
+msgid "The group could not be saved. Please, try again."
+msgstr "Die Gruppe konnte nicht gespeichert werden. Bitte nochmal versuchen."
+
+#: /controllers/groups_controller.php:51
+msgid "Invalid id for group"
+msgstr "Ung&uuml;ltige ID f&uuml;r eine Gruppe."
+
+#: /controllers/groups_controller.php:55
+msgid "Group deleted"
+msgstr "Gruppe gel&ouml;scht."
+
+#: /controllers/groups_controller.php:58
+msgid "Group was not deleted"
+msgstr "Gruppe wurde nicht gel&ouml;scht."
+
+#: /controllers/tasks_controller.php:13;36
+msgid "Invalid task"
+msgstr "Ung&uuml;ltige Arbeitsaufgabe."
+
+#: /controllers/tasks_controller.php:23;41
+msgid "The task has been saved"
+msgstr "Die Arbeitszeit wurde gespeichert."
+
+#: /controllers/tasks_controller.php:26;44
+msgid "The task could not be saved. Please, try again."
+msgstr "Die Arbeitszeit konnte nicht gespeichert werden. Bitte nochmal versuchen."
+
+#: /controllers/tasks_controller.php:57
+msgid "Invalid id for task"
+msgstr "Ung&uuml;ltige ID f&uuml;r eine Arbeitsaufgabe."
+
+#: /controllers/tasks_controller.php:61
+msgid "Task deleted"
+msgstr "Arbeitsaufgabe gel&ouml;scht."
+
+#: /controllers/tasks_controller.php:64
+msgid "Task was not deleted"
+msgstr "Arbeitsaufgabe wurde nicht gel&ouml;scht."
+
+#: /controllers/users_controller.php:29;51
+msgid "Invalid user"
+msgstr "Ung&uuml;ltiger Benutzer."
+
+#: /controllers/users_controller.php:39;56
+msgid "The user has been saved"
+msgstr "Benutzer gespeichert."
+
+#: /controllers/users_controller.php:42;59
+msgid "The user could not be saved. Please, try again."
+msgstr "Benutzer konnte nicht gespeichert werden. Bitte nochmal versuchen."
+
+#: /controllers/users_controller.php:71
+msgid "Invalid id for user"
+msgstr "Ung&uuml;ltige ID f&uuml;r einen Benutzer."
+
+#: /controllers/users_controller.php:75
+msgid "User deleted"
+msgstr "Benutzer gel&ouml;scht."
+
+#: /controllers/users_controller.php:78
+msgid "User was not deleted"
+msgstr "Benutzer wurde nicht gel&ouml;scht."
+
+#: /controllers/vacations_controller.php:13;35
+msgid "Invalid vacation"
+msgstr "Ung&uuml;ltige Urlaubsangabe."
+
+#: /controllers/vacations_controller.php:23;40
+msgid "The vacation has been saved"
+msgstr "Der Urlaub wurde gespeichert."
+
+#: /controllers/vacations_controller.php:26;43
+msgid "The vacation could not be saved. Please, try again."
+msgstr "Der Urlaub konnte nicht gespeichert werden. Bitte nochmal versuchen."
+
+#: /controllers/vacations_controller.php:55
+msgid "Invalid id for vacation"
+msgstr "Ung&uuml;ltige ID f&uuml;r Urlaubsangabe."
+
+#: /controllers/vacations_controller.php:59
+msgid "Vacation deleted"
+msgstr "Urlaub gel&ouml;scht."
+
+#: /controllers/vacations_controller.php:62
+msgid "Vacation was not deleted"
+msgstr "Urlaub wurde nicht gel&ouml;scht."
+
+#: /views/clients/add.ctp:4
+msgid "Add Client"
+msgstr "Kunden hinzuf&uuml;gen"
+
+#: /views/clients/add.ctp:9
+#: /views/clients/edit.ctp:10
+#: /views/configurations/add.ctp:10
+#: /views/configurations/edit.ctp:11
+#: /views/groups/add.ctp:9
+#: /views/groups/edit.ctp:10
+#: /views/tasks/add.ctp:16
+#: /views/tasks/edit.ctp:17
+#: /views/users/add.ctp:13
+#: /views/users/edit.ctp:14
+#: /views/vacations/add.ctp:10
+#: /views/vacations/edit.ctp:11
+msgid "Submit"
+msgstr "Speichern"
+
+#: /views/clients/add.ctp:12
+#: /views/clients/edit.ctp:13
+#: /views/clients/index.ctp:7;43
+#: /views/clients/view.ctp:17;41
+#: /views/configurations/add.ctp:13
+#: /views/configurations/edit.ctp:14
+#: /views/configurations/index.ctp:8;45
+#: /views/configurations/view.ctp:22
+#: /views/groups/add.ctp:12
+#: /views/groups/edit.ctp:13
+#: /views/groups/index.ctp:7;43
+#: /views/groups/view.ctp:17;38
+#: /views/tasks/add.ctp:19
+#: /views/tasks/edit.ctp:20
+#: /views/tasks/index.ctp:14;61
+#: /views/tasks/view.ctp:52
+#: /views/users/add.ctp:16
+#: /views/users/edit.ctp:17
+#: /views/users/index.ctp:11;53
+#: /views/users/view.ctp:37;65;109
+#: /views/vacations/add.ctp:13
+#: /views/vacations/edit.ctp:14
+#: /views/vacations/index.ctp:8;47
+#: /views/vacations/view.ctp:22
+msgid "Actions"
+msgstr "Navigation"
+
+#: /views/clients/add.ctp:15
+#: /views/clients/edit.ctp:17
+#: /views/clients/view.ctp:21
+#: /views/tasks/add.ctp:23
+#: /views/tasks/edit.ctp:25
+#: /views/tasks/index.ctp:64
+#: /views/tasks/view.ctp:58
+msgid "List Clients"
+msgstr "Kunden anzeigen"
+
+#: /views/clients/add.ctp:16
+#: /views/clients/edit.ctp:18
+#: /views/clients/index.ctp:46
+#: /views/clients/view.ctp:23
+#: /views/tasks/add.ctp:22
+#: /views/tasks/edit.ctp:24
+#: /views/tasks/view.ctp:56
+#: /views/users/add.ctp:22
+#: /views/users/edit.ctp:24
+#: /views/users/index.ctp:58
+#: /views/users/view.ctp:45
+msgid "List Tasks"
+msgstr "Arbeitseinheiten anzeigen"
+
+#: /views/clients/add.ctp:17
+#: /views/clients/edit.ctp:19
+#: /views/clients/index.ctp:47
+#: /views/clients/view.ctp:24;73
+#: /views/tasks/index.ctp:63
+#: /views/tasks/view.ctp:57
+#: /views/users/add.ctp:23
+#: /views/users/edit.ctp:25
+#: /views/users/index.ctp:59
+#: /views/users/view.ctp:46;97
+msgid "New Task"
+msgstr "Arbeitszeit eintragen"
+
+#: /views/clients/edit.ctp:4
+#: /views/clients/view.ctp:19
+msgid "Edit Client"
+msgstr "Kunden bearbeiten"
+
+#: /views/clients/edit.ctp:16
+#: /views/clients/index.ctp:23
+#: /views/clients/view.ctp:64
+#: /views/configurations/edit.ctp:17
+#: /views/configurations/index.ctp:25
+#: /views/groups/edit.ctp:16
+#: /views/groups/index.ctp:23
+#: /views/groups/view.ctp:58
+#: /views/tasks/edit.ctp:23
+#: /views/tasks/index.ctp:41
+#: /views/users/edit.ctp:20
+#: /views/users/index.ctp:33
+#: /views/users/view.ctp:88;126
+#: /views/vacations/edit.ctp:17
+#: /views/vacations/index.ctp:27
+msgid "Delete"
+msgstr "Löschen"
+
+#: /views/clients/edit.ctp:16
+#: /views/clients/index.ctp:23
+#: /views/clients/view.ctp:20;64
+#: /views/configurations/edit.ctp:17
+#: /views/configurations/index.ctp:25
+#: /views/configurations/view.ctp:25
+#: /views/groups/edit.ctp:16
+#: /views/groups/index.ctp:23
+#: /views/groups/view.ctp:20;58
+#: /views/tasks/edit.ctp:23
+#: /views/tasks/index.ctp:41
+#: /views/tasks/view.ctp:55
+#: /views/users/edit.ctp:20
+#: /views/users/index.ctp:33
+#: /views/users/view.ctp:40;88;126
+#: /views/vacations/edit.ctp:17
+#: /views/vacations/index.ctp:27
+#: /views/vacations/view.ctp:25
+msgid "Are you sure you want to delete # %s?"
+msgstr "Sind Sie sicher, dass sie # %s löschen wollen?"
+
+#: /views/clients/index.ctp:2
+msgid "Clients"
+msgstr "Kunden"
+
+#: /views/clients/index.ctp:21
+#: /views/clients/view.ctp:62
+#: /views/configurations/index.ctp:23
+#: /views/groups/index.ctp:21
+#: /views/groups/view.ctp:56
+#: /views/tasks/index.ctp:39
+#: /views/users/index.ctp:31
+#: /views/users/view.ctp:86;124
+#: /views/vacations/index.ctp:25
+msgid "View"
+msgstr "Ansehen"
+
+#: /views/clients/index.ctp:22
+#: /views/clients/view.ctp:63
+#: /views/configurations/index.ctp:24
+#: /views/groups/index.ctp:22
+#: /views/groups/view.ctp:57
+#: /views/tasks/index.ctp:40
+#: /views/users/index.ctp:32
+#: /views/users/view.ctp:87;125
+#: /views/vacations/index.ctp:26
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: /views/clients/index.ctp:31
+#: /views/configurations/index.ctp:33
+#: /views/groups/index.ctp:31
+#: /views/tasks/index.ctp:49
+#: /views/users/index.ctp:41
+#: /views/vacations/index.ctp:35
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Seite %page% von %pages%"
+
+#: /views/clients/index.ctp:36
+#: /views/configurations/index.ctp:38
+#: /views/groups/index.ctp:36
+#: /views/tasks/index.ctp:54
+#: /views/users/index.ctp:46
+#: /views/vacations/index.ctp:40
+msgid "previous"
+msgstr "zurück"
+
+#: /views/clients/index.ctp:39
+#: /views/configurations/index.ctp:41
+#: /views/groups/index.ctp:39
+#: /views/tasks/index.ctp:57
+#: /views/users/index.ctp:49
+#: /views/vacations/index.ctp:43
+msgid "next"
+msgstr "vor"
+
+#: /views/clients/index.ctp:45
+#: /views/clients/view.ctp:22
+#: /views/tasks/add.ctp:24
+#: /views/tasks/edit.ctp:26
+#: /views/tasks/index.ctp:65
+#: /views/tasks/view.ctp:59
+msgid "New Client"
+msgstr "Neuer Kunde"
+
+#: /views/clients/view.ctp:2
+#: /views/tasks/view.ctp:34
+msgid "Client"
+msgstr "Kunde"
+
+#: /views/clients/view.ctp:4;32
+#: /views/configurations/view.ctp:4
+#: /views/groups/view.ctp:4;32
+#: /views/tasks/view.ctp:4
+#: /views/users/view.ctp:4;56;106
+#: /views/vacations/view.ctp:4
+msgid "Id"
+msgstr "ID"
+
+#: /views/clients/view.ctp:9
+#: /views/configurations/view.ctp:9
+#: /views/groups/view.ctp:9
+msgid "Name"
+msgstr "Name"
+
+#: /views/clients/view.ctp:20
+msgid "Delete Client"
+msgstr "Kunden löschen"
+
+#: /views/clients/view.ctp:28
+#: /views/users/view.ctp:52
+msgid "Related Tasks"
+msgstr "Arbeitseinheiten"
+
+#: /views/clients/view.ctp:33
+#: /views/tasks/view.ctp:9
+#: /views/users/view.ctp:57
+msgid "Description"
+msgstr "Beschreibung"
+
+#: /views/clients/view.ctp:34
+#: /views/tasks/view.ctp:14
+#: /views/users/view.ctp:58;107
+#: /views/vacations/view.ctp:9
+msgid "Date"
+msgstr "Datum"
+
+#: /views/clients/view.ctp:35
+#: /views/tasks/view.ctp:19
+#: /views/users/view.ctp:59
+msgid "Starttime"
+msgstr "Beginn"
+
+#: /views/clients/view.ctp:36
+#: /views/tasks/view.ctp:24
+#: /views/users/view.ctp:60
+msgid "Endtime"
+msgstr "Ende"
+
+#: /views/clients/view.ctp:37
+#: /views/tasks/view.ctp:29
+#: /views/users/view.ctp:61
+msgid "Ipaddress"
+msgstr "IP-Addresse"
+
+#: /views/clients/view.ctp:38
+#: /views/users/view.ctp:62
+msgid "Client Id"
+msgstr "Kundennummer"
+
+#: /views/clients/view.ctp:39
+#: /views/tasks/view.ctp:39
+#: /views/users/view.ctp:63
+msgid "Proxy"
+msgstr "Vertretung"
+
+#: /views/clients/view.ctp:40
+#: /views/users/view.ctp:64;108
+msgid "User Id"
+msgstr "Benutzer-ID"
+
+#: /views/configurations/add.ctp:4
+msgid "Add Configuration"
+msgstr "Konfiguration hinzuf&uuml;gen"
+
+#: /views/configurations/add.ctp:16
+#: /views/configurations/edit.ctp:18
+#: /views/configurations/view.ctp:26
+msgid "List Configurations"
+msgstr "Konfigurationen anzeigen"
+
+#: /views/configurations/edit.ctp:4
+#: /views/configurations/view.ctp:24
+msgid "Edit Configuration"
+msgstr "Konfigurationen bearbeiten"
+
+#: /views/configurations/index.ctp:2
+msgid "Configurations"
+msgstr "Konfigurationen"
+
+#: /views/configurations/index.ctp:47
+#: /views/configurations/view.ctp:27
+msgid "New Configuration"
+msgstr "Neue Konfiguration"
+
+#: /views/configurations/view.ctp:2
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: /views/configurations/view.ctp:14
+msgid "Value"
+msgstr "Wert"
+
+#: /views/configurations/view.ctp:25
+msgid "Delete Configuration"
+msgstr "Konfiguration löschen"
+
+#: /views/groups/add.ctp:4
+msgid "Add Group"
+msgstr "Gruppe hinzuf&uuml;gen"
+
+#: /views/groups/add.ctp:15
+#: /views/groups/edit.ctp:17
+#: /views/groups/view.ctp:21
+#: /views/users/add.ctp:20
+#: /views/users/edit.ctp:22
+#: /views/users/index.ctp:56
+#: /views/users/view.ctp:43
+msgid "List Groups"
+msgstr "Gruppen anzeigen"
+
+#: /views/groups/add.ctp:16
+#: /views/groups/edit.ctp:18
+#: /views/groups/index.ctp:46
+#: /views/groups/view.ctp:23
+#: /views/tasks/add.ctp:25
+#: /views/tasks/edit.ctp:27
+#: /views/tasks/index.ctp:66
+#: /views/tasks/view.ctp:60
+#: /views/users/add.ctp:19
+#: /views/users/edit.ctp:21
+#: /views/users/view.ctp:41
+#: /views/vacations/add.ctp:17
+#: /views/vacations/edit.ctp:19
+#: /views/vacations/index.ctp:50
+#: /views/vacations/view.ctp:28
+msgid "List Users"
+msgstr "Benutzer anzeigen"
+
+#: /views/groups/add.ctp:17
+#: /views/groups/edit.ctp:19
+#: /views/groups/index.ctp:47
+#: /views/groups/view.ctp:24;67
+#: /views/tasks/add.ctp:26
+#: /views/tasks/edit.ctp:28
+#: /views/tasks/index.ctp:67
+#: /views/tasks/view.ctp:61
+#: /views/users/index.ctp:55
+#: /views/users/view.ctp:42
+#: /views/vacations/add.ctp:18
+#: /views/vacations/edit.ctp:20
+#: /views/vacations/index.ctp:51
+#: /views/vacations/view.ctp:29
+msgid "New User"
+msgstr "Neuer Benutzer"
+
+#: /views/groups/edit.ctp:4
+#: /views/groups/view.ctp:19
+msgid "Edit Group"
+msgstr "Gruppe bearbeiten"
+
+#: /views/groups/index.ctp:2
+msgid "Groups"
+msgstr "Gruppen"
+
+#: /views/groups/index.ctp:45
+#: /views/groups/view.ctp:22
+#: /views/users/add.ctp:21
+#: /views/users/edit.ctp:23
+#: /views/users/index.ctp:57
+#: /views/users/view.ctp:44
+msgid "New Group"
+msgstr "Neue Gruppe"
+
+#: /views/groups/view.ctp:2
+#: /views/users/view.ctp:29
+msgid "Group"
+msgstr "Gruppe"
+
+#: /views/groups/view.ctp:20
+msgid "Delete Group"
+msgstr "Gruppe löschen"
+
+#: /views/groups/view.ctp:28
+msgid "Related Users"
+msgstr "Benutzer"
+
+#: /views/groups/view.ctp:33
+#: /views/users/view.ctp:9
+msgid "Username"
+msgstr "Benutzername"
+
+#: /views/groups/view.ctp:34
+#: /views/users/view.ctp:14
+msgid "Password"
+msgstr "Passwort"
+
+#: /views/groups/view.ctp:35
+#: /views/users/view.ctp:19
+msgid "Fullname"
+msgstr "Name"
+
+#: /views/groups/view.ctp:36
+#: /views/users/view.ctp:24
+msgid "Email"
+msgstr "EMail"
+
+#: /views/groups/view.ctp:37
+msgid "Group Id"
+msgstr "Gruppen-ID"
+
+#: /views/tasks/add.ctp:4
+msgid "Add Task"
+msgstr "Arbeitszeit eintragen"
+
+#: /views/tasks/edit.ctp:4
+#: /views/tasks/view.ctp:54
+msgid "Edit Task"
+msgstr "Arbeitsaufgabe bearbeiten"
+
+#: /views/tasks/index.ctp:2
+msgid "Tasks"
+msgstr "Arbeitszeit"
+
+#: /views/tasks/view.ctp:2
+msgid "Task"
+msgstr "Arbeitszeit"
+
+#: /views/tasks/view.ctp:44
+#: /views/users/view.ctp:2
+#: /views/vacations/view.ctp:14
+msgid "User"
+msgstr "Benutzer"
+
+#: /views/tasks/view.ctp:55
+msgid "Delete Task"
+msgstr "Arbeitsaufgabe löschen"
+
+#: /views/users/add.ctp:4
+msgid "Add User"
+msgstr "Neuer Benutzer"
+
+#: /views/users/add.ctp:24
+#: /views/users/edit.ctp:26
+#: /views/users/index.ctp:60
+#: /views/users/view.ctp:47
+#: /views/vacations/add.ctp:16
+#: /views/vacations/edit.ctp:18
+#: /views/vacations/view.ctp:26
+msgid "List Vacations"
+msgstr "Urlaub anzeigen"
+
+#: /views/users/add.ctp:25
+#: /views/users/edit.ctp:27
+#: /views/users/index.ctp:61
+#: /views/users/view.ctp:48;135
+#: /views/vacations/index.ctp:49
+#: /views/vacations/view.ctp:27
+msgid "New Vacation"
+msgstr "Urlaub eintragen"
+
+#: /views/users/edit.ctp:4
+#: /views/users/view.ctp:39
+msgid "Edit User"
+msgstr "Benutzer bearbeiten"
+
+#: /views/users/index.ctp:2
+msgid "Users"
+msgstr "Benutzer"
+
+#: /views/users/view.ctp:40
+msgid "Delete User"
+msgstr "Benutzer löschen"
+
+#: /views/users/view.ctp:102
+msgid "Related Vacations"
+msgstr "Urlaub"
+
+#: /views/vacations/add.ctp:4
+msgid "Add Vacation"
+msgstr "Urlaub eintragen"
+
+#: /views/vacations/edit.ctp:4
+#: /views/vacations/view.ctp:24
+msgid "Edit Vacation"
+msgstr "Urlaub bearbeiten"
+
+#: /views/vacations/index.ctp:2
+msgid "Vacations"
+msgstr "Urlaub"
+
+#: /views/vacations/view.ctp:2
+msgid "Vacation"
+msgstr "Urlaub"
+
+#: /views/vacations/view.ctp:25
+msgid "Delete Vacation"
+msgstr "Urlaub löschen"
+
+#: /webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+msgid "Starttime Morning"
+msgstr "Beginn morgens"
+
+msgid "Endtime Morning"
+msgstr "Ende morgens"
+
+msgid "Starttime Afternoon"
+msgstr "Beginn nachmittags"
+
+msgid "Endtime Afternoon"
+msgstr "Ende nachmittags"
+
+msgid "Show all Vacations"
+msgstr "Zeige Urlaub aller"
+
+msgid "Show all Tasks"
+msgstr "Zeige alle Arbeitszeiten"
+
