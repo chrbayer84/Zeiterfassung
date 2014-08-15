@@ -60,8 +60,8 @@ class DATABASE_CONFIG
 		'connect' => 'mysql_connect',
 		'socket' => '/var/run/mysqld/mysqld.sock',
 		'host' => 'localhost',
-		'login' => 'db',
-		'password' => 'db',
+		'login' => 'travis',
+		'password' => '',
 		'database' => 'db',
 		'prefix' => ''
 

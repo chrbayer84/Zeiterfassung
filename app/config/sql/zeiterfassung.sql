@@ -1,9 +1,9 @@
-drop table configurations;
-drop table tasks;
-drop table clients;
-drop table vacations;
-drop table users;
-drop table groups;
+drop table IF EXISTS configurations;
+drop table IF EXISTS tasks;
+drop table IF EXISTS clients;
+drop table IF EXISTS vacations;
+drop table IF EXISTS users;
+drop table IF EXISTS groups;
 
 create table groups (
 	id integer not null auto_increment primary key,
@@ -48,6 +48,12 @@ create table tasks (
 	constraint owner_id_key foreign key (user_id) references users (id)
 )ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
+create table configurations (
+  id integer not null auto_increment primary key,
+  name varchar(255) default null,
+  value text
+)ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
 INSERT INTO clients VALUES ('1', 'IBM Forum');
 INSERT INTO clients VALUES ('2', 'HSG Zander');
 INSERT INTO clients VALUES ('3', 'Labor');
@@ -88,9 +94,3 @@ INSERT INTO configurations VALUES ('6', 'CRON_LASTRUN', '0');
 INSERT INTO configurations VALUES ('7', 'CRON_INTERVAL', '1440');
 INSERT INTO configurations VALUES ('8', 'CRON_RETRY_INTERVAL', '60');
 
-
-create table configurations (
-  id integer not null auto_increment primary key,
-  name varchar(255) default null,
-  value text
-)ENGINE=InnoDB  DEFAULT CHARSET=utf8;

@@ -1,0 +1,19 @@
+language: php
+
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+
+env:
+  - DB=mysql
+
+before_script:
+  - mysql -e "create database IF NOT EXISTS zeiterfassung;" -uroot; fi
+  - mysql zeiterfassung -u root < app/config/sql/zeiterfassung.sql
+
+script: phpunit
+
+notifications:
+  email:
+    - chrbayer84@googlemail.com
