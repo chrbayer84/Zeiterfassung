@@ -6,13 +6,13 @@ drop table IF EXISTS users;
 drop table IF EXISTS groups;
 
 create table groups (
-	id integer not null auto_increment primary key,
+	id serial not null primary key,
 	name varchar(50) not null,
 	parent_id integer default 0
 );
 
 create table users (
-	id integer not null auto_increment primary key,
+	id serial not null primary key,
 	username varchar(50) not null,
 	password varchar(40) not null,
 	fullname varchar(50) not null,
@@ -21,24 +21,24 @@ create table users (
 );
 
 create table vacations (
-	id integer not null auto_increment primary key,
-	date datetime not null,
+	id serial not null primary key,
+	date timestamp not null,
 	user_id integer not null,
 	constraint user_id_key foreign key (user_id) references users (id)
 );
 
 create table clients (
-	id integer not null auto_increment primary key,
+	id serial not null primary key,
 	name varchar(50) not null
 );
 
 create table tasks (
-	id integer auto_increment primary key,
+	id serial primary key,
 	description varchar(50) not null,
-	starttime_morning datetime not null,
-	endtime_morning datetime not null,
-	starttime_afternoon datetime not null,
-	endtime_afternoon datetime not null,
+	starttime_morning timestamp not null,
+	endtime_morning timestamp not null,
+	starttime_afternoon timestamp not null,
+	endtime_afternoon timestamp not null,
 	ipaddress varchar(15) not null,
 	client_id integer not null,
 	constraint client_id_key foreign key (client_id) references clients (id),
@@ -49,7 +49,7 @@ create table tasks (
 );
 
 create table configurations (
-  id integer not null auto_increment primary key,
+  id serial not null primary key,
   name varchar(255) default null,
   value text
 );
