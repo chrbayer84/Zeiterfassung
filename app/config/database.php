@@ -56,13 +56,17 @@
 class DATABASE_CONFIG
 {
 	var $default = array(
-	  'driver' => 'mysql',
-		'connect' => 'mysql_connect',
-		'socket' => '/var/run/mysqld/mysqld.sock',
-		'host' => 'localhost',
-		'login' => 'travis',
-		'password' => '',
-		'database' => 'db',
+	  'driver' => 'postgres',
+#		'connect' => 'mysql_connect',
+#		'socket' => '/var/run/mysqld/mysqld.sock',
+#		'host' => 'localhost',
+#		'login' => 'travis',
+#		'password' => '',
+#		'database' => 'db',
+		'host' => 'ec2-54-235-192-45.compute-1.amazonaws.com',
+		'login' => 'brxyknkeohyrno',
+		'password' => '5-OvnEi7qPsl_u7MZ0pDljQWKL',
+		'database' => 'd83cj3kij1of5q',
 		'prefix' => ''
 
 	);
