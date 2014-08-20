@@ -5,6 +5,38 @@ drop table IF EXISTS vacations;
 drop table IF EXISTS users;
 drop table IF EXISTS groups;
 
+
+CREATE TABLE acos (
+  id serial NOT NULL primary key,
+  parent_id integer DEFAULT NULL,
+  model varchar(255) DEFAULT NULL,
+  foreign_key integer DEFAULT NULL,
+  alias varchar(255) DEFAULT NULL,
+  lft integer DEFAULT NULL,
+  rght integer DEFAULT NULL
+);
+
+CREATE TABLE aros (
+  id serial NOT NULL,
+  parent_id integer DEFAULT NULL,
+  model varchar(255) DEFAULT NULL,
+  foreign_key integer DEFAULT NULL,
+  alias varchar(255) DEFAULT NULL,
+  lft integer DEFAULT NULL,
+  rght integer DEFAULT NULL
+);
+
+CREATE TABLE aros_acos (
+  id serial NOT NULL,
+  aro_id integer NOT NULL,
+  aco_id integer NOT NULL,
+  _create varchar(2) NOT NULL DEFAULT '0',
+  _read varchar(2) NOT NULL DEFAULT '0',
+  _update varchar(2) NOT NULL DEFAULT '0',
+  _delete varchar(2) NOT NULL DEFAULT '0',
+  UNIQUE (aro_id,aco_id)
+);
+
 create table groups (
 	id serial not null primary key,
 	name varchar(50) not null,

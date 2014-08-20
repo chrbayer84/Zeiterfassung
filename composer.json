@@ -1,2 +1,6 @@
 {
+    "name": "chrbayer84/zeiterfassung",
+    "require": {
+        "php": "5.3.*"
+    }
 }
