@@ -4,8 +4,3 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 </IfModule>
-
-<IfModule mod_security.c> 
-   SecFilterEngine Off
-   SecFilterScanPOST Off
-</IfModule> 
