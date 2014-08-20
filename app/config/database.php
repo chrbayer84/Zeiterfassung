@@ -63,10 +63,10 @@ class DATABASE_CONFIG
 #		'login' => 'travis',
 #		'password' => '',
 #		'database' => 'db',
-		'host' => 'ec2-54-235-192-45.compute-1.amazonaws.com',
-		'login' => 'brxyknkeohyrno',
-		'password' => '5-OvnEi7qPsl_u7MZ0pDljQWKL',
-		'database' => 'd83cj3kij1of5q',
+		'host' => 'ec2-23-23-177-33.compute-1.amazonaws.com',
+		'login' => 'jcslvwxrgrvylt',
+		'password' => '_MsEXF9EuQ0LkgdLiWgVkdb2U8',
+		'database' => 'db3ermaltcaglg',
 		'prefix' => ''
 
 	);
